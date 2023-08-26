@@ -1,0 +1,213 @@
+@charset "UTF-8";   
+@font-face {
+    font-family: 'migo' ;
+    src: url(Painterz.ttf);
+}
+
+:root{
+    --cor1: #20150E;
+    --cor2: #664127;
+    --cor3: #B37244;
+    --cor4: #E69257;
+    --cor5: #EABE9F;
+}
+
+body{
+    background-color: #833802a8
+}
+
+.paragrafo{
+    text-indent: 40px;
+}
+
+strong{
+    color: var(--cor5);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(#20150e,#664127);
+    color: white;
+    min-height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header p, h1{
+    padding-top: 1%;
+}
+
+#menu{
+    background-color: var(--cor2);
+    
+}
+
+#menu a{
+    color: white;
+    margin-right: 20px;
+    transition-duration: 1.5s;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-left: 5px;
+}
+
+#menu a:hover{
+    transition-duration: 0s;
+    color: #EABE9F;
+    text-decoration: dashed;
+}
+
+footer{
+    background-image: linear-gradient(#70482d00,#271103ab);
+}
+
+footer h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 17px;
+    margin-left: 5px;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 17px;     
+    margin-left: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor5)
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a::after{
+    content: " ↗";
+}
+
+main p{
+    text-align: justify;
+    margin-right: 17px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, Times, sans-serif;
+}
+
+main h1{
+    margin-top: 5px;   
+    margin-right: 17px;
+    margin-left: 5px;
+}
+
+main h2{
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main p{
+    margin-bottom: 12px;
+    margin-top: 16px; 
+}
+
+main{
+    margin-top: 3px;
+}
+
+main h3{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mSucessos{
+    margin-top: 35px;
+    margin-bottom: -5px;
+}
+
+.albuns{
+    display: flex;
+    justify-content: center;
+}
+
+.sombraalbum{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);  
+}
+
+#clt3c{
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+.trio{
+    display: flex;
+   justify-content: center;
+}
+
+#titulovideo{
+    text-align: center;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 28px;
+}
+
+.perfis{
+    margin-top: 8px;
+}
+
+#eu{
+    text-align: leftt;
+    margin-top: 28px;   
+}
+
+#eu a:hover{
+    color: var(--cor5);
+    text-decoration: underline;
+}
+
+#albunstitulo{
+    margin-top: 25px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+#clt{
+    margin-top: 35px;
+    margin-bottom: -5px;
+    text-decoration: underline;
+}
+
+#clt2{
+    margin-top: 35px;
+    margin-bottom: -5px;
+    text-decoration: underline;
+}
+
+#clt3{
+    margin-top: 35px;
+    margin-bottom: -5px;
+    text-decoration: underline;
+}
+
+footer > nav > p::after{
+    content: " 🎵";    
+}
+
