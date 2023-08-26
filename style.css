@@ -13,7 +13,8 @@
 }
 
 body{
-    background-color: #833802a8
+    background-color: #833802a8;
+  
 }
 
 .paragrafo{
@@ -102,14 +103,14 @@ main a::after{
 main p{
     text-align: justify;
     margin-right: 17px;
-    margin-left: 5px;
+    margin-left: 8px;
     font-family: Arial, Helvetica, Times, sans-serif;
 }
 
 main h1{
     margin-top: 5px;   
     margin-right: 17px;
-    margin-left: 5px;
+    margin-left: 8px;
 }
 
 main h2{
@@ -185,7 +186,7 @@ main h3{
 
 #albunstitulo{
     margin-top: 25px;
-    margin-left: 5px;
+    margin-left: 8px;
     text-align: left;
 }
 
